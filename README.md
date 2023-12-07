@@ -8,12 +8,20 @@ To use the pre-deployed App that I created go to [Custom Shirt App](https://cust
 
 *Warning - the API Key that I used may be out of credit or disabled. To run this application on your own follow the instructions below.*
 
+## Example
+
+<img width="411" alt="Screenshot 2023-12-07 at 1 07 14 AM" src="https://github.com/tommymmcguire/indivproj4/assets/141086024/d5c6a48e-857a-45ed-a0cc-ff009a286a85">
+
+<img width="561" alt="Screenshot 2023-12-07 at 1 06 47 AM" src="https://github.com/tommymmcguire/indivproj4/assets/141086024/e6f723e0-3edc-45f5-af6c-b8085fde6413">
+
+
 ## Features
 
 - **Image Generation**: Leveraging DALL-E to generate images based on user-provided descriptions.
 - **Image Overlay**: Processing the generated images and overlaying them onto a t-shirt template.
 - **Docker Integration**: Containerized Flask application for easy deployment and scalability.
 - **Azure Deployment**: Deployed on Azure Web App for high availability and auto-scaling.
+- **CI/CD pipeline**: Built with GitHub Actions, automates the development lifecycle processes. The workflow in .github/workflows – main.yml – ensures consistent code quality and streamlined deployment.
 
 ## Getting Started
 
@@ -61,6 +69,9 @@ $ python app.py
 
 ## Deployment
 Instructions for deploying this on a live system using Azure Web App and Docker Hub.
+
+<img width="1427" alt="Azure" src="https://github.com/tommymmcguire/indivproj4/assets/141086024/51bd3ed5-5942-4898-8389-7536c0d0067c">
+
 
 ### Pushing the Container to Docker Hub
 1. Tag your docker image:
