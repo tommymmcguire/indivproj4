@@ -15,7 +15,7 @@ def overlay_image_on_tshirt(generated_image, tshirt_template_path, output_path):
     tshirt = Image.open(tshirt_template_path).convert("RGBA")
 
     # Resize the generated image
-    generated_image = generated_image.resize((150, 150))  # Example size, adjust as needed
+    generated_image = generated_image.resize((150, 150)) # Ex. adjust as needed
 
     # Ensure the generated image is in RGBA mode
     if generated_image.mode != "RGBA":
@@ -47,7 +47,6 @@ def generate_image():
 
     if response.status_code == 200:
         # The response handling here depends on how DALL-E 2 returns the image.
-        # You might receive a URL, binary data, etc. Adjust the following line accordingly.
         image_urls = response.json()["data"]
         first_image_url = image_urls[0]["url"]  # Using the first image URL
 

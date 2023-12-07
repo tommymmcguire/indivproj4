@@ -1,5 +1,5 @@
 import unittest
-from unittest.mock import patch, mock_open
+from unittest.mock import patch
 from app import app, overlay_image_on_tshirt
 from PIL import Image
 import io
