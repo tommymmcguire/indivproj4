@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.8-slim
+FROM --platform=linux/amd64 public.ecr.aws/docker/library/python:3.9.10-slim-buster
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
@@ -11,7 +11,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 5000 available to the world outside this container
-EXPOSE 5000
+EXPOSE 4000
 
 # Define environment variable
 ENV NAME World
