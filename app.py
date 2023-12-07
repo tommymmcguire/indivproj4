@@ -41,7 +41,6 @@ def generate_image():
     description = request.form.get('description')
 
     api_key = os.getenv('OPENAI_API_KEY')
-    print("API Key:", api_key)
     headers = {"Authorization": f"Bearer {api_key}"}
     api_url = "https://api.openai.com/v1/images/generations"
     response = requests.post(api_url, headers=headers, json={"prompt": description})
