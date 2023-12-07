@@ -6,7 +6,7 @@ This project is a Flask web application that utilizes DALL-E to generate images 
 
 To use the pre-deployed App that I created go to [Custom Shirt App](customshirt.azurewebsites.net). 
 
-* Warning - the API Key that I used may be out of credit or disabled. To run this application on your own follow the instructions below. *
+*Warning - the API Key that I used may be out of credit or disabled. To run this application on your own follow the instructions below.*
 
 ## Features
 
