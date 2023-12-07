@@ -3,3 +3,4 @@ requests
 Pillow  # For image processing
 azure-cli
 python-dotenv
+black
