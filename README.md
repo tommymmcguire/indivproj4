@@ -2,6 +2,8 @@
 
 # Flask Image Generation App with DALL-E and Azure Deployment
 
+## Walk Through [Youtube Video](https://youtu.be/ME6gs6-7vYk)
+
 This project is a Flask web application that utilizes DALL-E to generate images based on user input, which are then overlaid onto a t-shirt template. The application is containerized using Docker and deployed on Azure Web App, with the Docker container hosted on Docker Hub.
 
 To use the pre-deployed App that I created go to [Custom Shirt App](https://customshirt.azurewebsites.net/). Use the text box to input the type of image you would like on your t-shirt. Enjoy and be creative!
